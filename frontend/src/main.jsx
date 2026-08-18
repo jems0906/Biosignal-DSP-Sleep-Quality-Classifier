@@ -7,7 +7,7 @@ import { Spectrogram } from './Spectrogram';
 import './styles.css';
 import './extra.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 const bandColors = { delta: '#ffb35c', theta: '#75d5c4', alpha: '#9c8cff', beta: '#f77f9c' };
 const initial = { sample_name: 'Loading signal...', sampling_rate: 100, duration_seconds: 30, raw_signal: [], filtered_signal: [], frequencies: [], psd: [], bandpowers: {}, quality: { usable: true, artifact: false, reasons: [] }, prediction: { label: '—', confidence: 0, probabilities: {} } };
 

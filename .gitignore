@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+.DS_Store
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# MNE's local dataset cache is downloaded outside the repository by default.
+mne_data/
+*.egg-info/

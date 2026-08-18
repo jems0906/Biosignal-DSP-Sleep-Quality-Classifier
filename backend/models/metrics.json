@@ -1,0 +1,102 @@
+{
+  "status": "trained",
+  "dataset": "PhysioNet Sleep-EDF Expanded",
+  "subjects": 3,
+  "epochs": 438,
+  "split": {
+    "train_subjects": 1,
+    "validation_subjects": 1,
+    "test_subjects": 1
+  },
+  "balanced_accuracy": 0.38788732394366193,
+  "macro_f1": 0.3266046324082475,
+  "classification_report": {
+    "Wake": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 12.0
+    },
+    "N1": {
+      "precision": 0.18181818181818182,
+      "recall": 0.08333333333333333,
+      "f1-score": 0.11428571428571428,
+      "support": 24.0
+    },
+    "N2": {
+      "precision": 0.2692307692307692,
+      "recall": 0.7,
+      "f1-score": 0.3888888888888889,
+      "support": 40.0
+    },
+    "N3": {
+      "precision": 0.9444444444444444,
+      "recall": 0.23943661971830985,
+      "f1-score": 0.38202247191011235,
+      "support": 71.0
+    },
+    "REM": {
+      "precision": 0.23529411764705882,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.34782608695652173,
+      "support": 6.0
+    },
+    "accuracy": 0.35294117647058826,
+    "macro avg": {
+      "precision": 0.5261575026280909,
+      "recall": 0.38788732394366193,
+      "f1-score": 0.3266046324082475,
+      "support": 153.0
+    },
+    "weighted avg": {
+      "precision": 0.6248378261065689,
+      "recall": 0.35294117647058826,
+      "f1-score": 0.34188865833836474,
+      "support": 153.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      4,
+      3,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      18,
+      0,
+      4
+    ],
+    [
+      0,
+      5,
+      28,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      53,
+      17,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      4
+    ]
+  ],
+  "labels": [
+    "Wake",
+    "N1",
+    "N2",
+    "N3",
+    "REM"
+  ]
+}

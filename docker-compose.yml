@@ -4,10 +4,11 @@ services:
     ports:
       - "8000:8000"
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
     ports:
       - "8080:80"
-    environment:
-      VITE_API_URL: http://localhost:8000
     depends_on:
       - backend

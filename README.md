@@ -1,4 +1,4 @@
-# Somnus Signal Lab
+# Biosignal DSP & Sleep Quality Classifier
 
 Production-style biosignal algorithm lifecycle demo: curation, DSP preprocessing, quality control, interpretable sleep-stage inference, validation, failure analysis, and deployment.
 
